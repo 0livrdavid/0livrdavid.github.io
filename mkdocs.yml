@@ -1,6 +1,16 @@
 site_name: InfoWorks
+
+nav:
+  - Home: index.md
+  - SCRUM: 
+    - User Story: SCRUM/userStory.md
+    - Product Backlog: SCRUM/productBacklog.md
+  - UML:
+    - Casos e Usos: UML/casosUsos.md
+
 theme:
   name: null
   custom_dir: 'cinder'
-nav:
-  - Home: index.md
+  language: pt
+  favicon: ./imagem/favicon.ico
+  logo: ./imagem/logo-correios.png
