@@ -12,5 +12,5 @@ theme:
   name: null
   custom_dir: 'cinder'
   language: pt
-  favicon: imagem/favicon.ico
+  favicon: ./imagem/favicon.ico
   logo: ./imagem/logo-correios.png
