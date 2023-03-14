@@ -1,12 +1,16 @@
 # Home
 
-## Bem-vindo a InfoWorks
+<hr>
+
+## <b>Bem-vindo a InfoWorks</b>
 
 > *"O serviço que você precisa, a facilidade que você merece"*. 
 
 Aproveite os serviços de uma plataforma que conecta usuários a provedores de serviços. Antes de usar nossa plataforma, leia e entenda nossos Termos de Uso e Política de Privacidade, que regem o uso do InfoWorks. Ao usar nossa plataforma, você concorda em ficar vinculado a estes termos.  
 
-## Termos de Uso
+<br>
+
+## <b>Termos de Uso</b>
 
 ### 1)  Conduta do Usuário 
 
@@ -95,7 +99,9 @@ O InfoWorks pode atualizar estes Termos de Uso de tempos em tempos. Ao continuar
 
 Se você tiver alguma dúvida ou preocupação sobre estes Termos de Uso, entre em contato conosco em [lukasmagalhaes118@gmail.com](mailto: lukasmagalhaes118@gmail.com).
 
-## Política de Privacidade
+<br>
+
+## <b>Política de Privacidade</b>
 
 No InfoWorks, proteger a confidencialidade e os dados pessoais de nossos valiosos usuários é de suma importância para nós. Nossa Política de Privacidade detalha as categorias de dados que coletamos, como empregamos e protegemos esses dados, bem como os privilégios concedidos a você como usuário do InfoWorks.
 
@@ -127,6 +133,8 @@ O InfoWorks reserva-se o direito de modificar esta Política de Privacidade a qu
 
 Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade ou sobre as práticas de privacidade do InfoWorks, entre em contato conosco usando as informações fornecidas abaixo.
 
-## Validade
+<br>
+
+## <b>Validade</b>
 
 Faz-se valido tais documentos referentes a *Termos de Uso* e *Política de Privacidade* a partir da data de criação do mesmo datado em: **01/03/2023**
