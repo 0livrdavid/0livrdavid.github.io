@@ -131,7 +131,7 @@ O InfoWorks reserva-se o direito de modificar esta Política de Privacidade a qu
 
 ### 8) Contate-nos
 
-Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade ou sobre as práticas de privacidade do InfoWorks, entre em contato conosco usando as informações fornecidas abaixo.
+Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade ou sobre as práticas de privacidade do InfoWorks, entre em contato conosco em [lukasmagalhaes118@gmail.com](mailto: lukasmagalhaes118@gmail.com).
 
 <br>
 
