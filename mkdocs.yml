@@ -1,5 +1,8 @@
 site_name: InfoWorks
 
+repo_name: "2020.1-Correios"
+repo_url: "https://github.com/Requisitos-de-Software/2020.1-Correios"
+
 nav:
   - Home: index.md
   - SCRUM: 
@@ -12,5 +15,7 @@ theme:
   name: null
   custom_dir: 'cinder'
   language: pt
-  favicon: ./imagem/favicon.ico
-  logo: ./imagem/logo-correios.png
+  logo: ./images/logo.png
+  favicon: ./images/favicon.png
+  palette:
+    primary: blue
