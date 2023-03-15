@@ -315,3 +315,72 @@
     </tr>
   </tbody>
 </table>
+
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1" class="column">Sistema de classificação e revisão</td>
+            <td rowspan="1" class="column">Classificação e revisão de provedores de serviços</td>
+            <td class="column">US04</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>
+                    Como usuário, eu quero poder classificar e revisar os provedores de serviços após receber seus serviços, para que outros usuários possam tomar decisões informadas ao selecionar provedores de serviços.
+                </span>
+                <hr class="hr">
+                <strong>Critérios de Aceitação</strong><br>
+                A aplicação deve permitir que os usuários:
+                <ul class="ul">
+                    <li>Classifiquem o provedor de serviços usando um sistema de estrelas;</li>
+                    <li>Escrevam uma revisão do provedor de serviços (opcional);</li>
+                    <li>Visualizem as classificações e revisões dos outros usuários para um provedor de serviços.</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <th>Identificador da História</th>
+    <th>Épico</th>
+    <th>História de Usuário</th>
+    <th>Feature</th>
+  </tr>
+  <tr>
+    <td>HU06</td>
+    <td>Gerenciamento de Perfis</td>
+    <td>Como provedor de serviços, eu gostaria de poder criar um perfil na plataforma para mostrar meus serviços e informações de contato</td>
+    <td>Criação de perfil de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU07</td>
+    <td>Gerenciamento de Perfis</td>
+    <td>Como provedor de serviços, eu gostaria de poder atualizar e editar meu perfil na plataforma para manter minhas informações atualizadas</td>
+    <td>Atualização de perfil de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU08</td>
+    <td>Gerenciamento de Disponibilidade</td>
+    <td>Como provedor de serviços, eu gostaria de poder definir minha disponibilidade para que os clientes saibam quando estou disponível para trabalhar</td>
+    <td>Definição de disponibilidade de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU09</td>
+    <td>Gerenciamento de Disponibilidade</td>
+    <td>Como provedor de serviços, eu gostaria de poder visualizar minha disponibilidade em um calendário para que possa gerenciar meus compromissos</td>
+    <td>Visualização de disponibilidade de provedor de serviço</td>
+  </tr>
+</table>
