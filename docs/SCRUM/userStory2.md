@@ -36,6 +36,124 @@
     <thead>
         <tr>
             <th>Épico</th>
+            <th>Funcionalidade</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cadastro de Usuário</td>
+            <td>Criar formulário de cadastro</td>
+            <td>FTD001</td>
+            <td>Usuário deve ser capaz de inserir nome, e-mail, telefone, endereço e criar senha. Os dados devem ser validados e gravados no banco de dados do sistema.</td>
+        </tr>
+        <tr>
+            <td>Cadastro de Serviço</td>
+            <td>Criar formulário de cadastro de serviço</td>
+            <td>FTD002</td>
+            <td>Usuário deve ser capaz de inserir informações sobre o serviço que deseja oferecer, incluindo descrição, preço, horários disponíveis e localização. Os dados devem ser validados e gravados no banco de dados do sistema.</td>
+        </tr>
+        <tr>
+            <td>Busca de Serviços</td>
+            <td>Criar função de busca</td>
+            <td>FTD003</td>
+            <td>Usuário deve ser capaz de buscar serviços por palavra-chave, localização, preço e horários disponíveis. O sistema deve retornar resultados relevantes e atualizados.</td>
+        </tr>
+        <tr>
+            <td>Solicitação de Serviço</td>
+            <td>Criar função de solicitação</td>
+            <td>FTD004</td>
+            <td>Usuário deve ser capaz de solicitar um serviço especificando o horário e data desejados. O prestador de serviço deve ser notificado da solicitação e ter a opção de aceitar ou rejeitar a solicitação.</td>
+        </tr>
+        <tr>
+            <td>Gerenciamento de Pagamentos</td>
+            <td>Criar função de pagamento</td>
+            <td>FTD005</td>
+            <td>O sistema deve ser capaz de gerenciar pagamentos entre usuários e prestadores de serviços. O sistema deve armazenar informações de pagamento de forma segura e garantir que as transações sejam concluídas com sucesso.</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<br>
+
+<table>
+    <table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Recurso</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead><thead>
+    </thead><tbody>
+        <tr>
+            <td rowspan="3" class="column">Acesso ao aplicativo</td>
+            <td rowspan="1" class="column">Cadastro</td>
+            <td class="column">US01</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>
+                    Como usuário, quero me registrar no aplicativo para poder aproveitar todas as funcionalidades do aplicativo.
+                </span>
+                <hr class="hr">
+                <strong>Critérios de aceitação</strong><br>
+                O aplicativo deve:
+                <ul class="ul">
+                    <li>Apresentar um formulário de registro;</li>
+                    <li>Envie um código de validação (via SMS).</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="column">Login</td>      
+            <td class="column">US02</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>
+                    Como usuário, quero fazer login para poder aproveitar todas as funcionalidades do aplicativo.
+                </span>
+                <hr class="hr">
+                <strong>Critérios de aceitação</strong><br>
+                The application must: 
+                <ul class="ul">
+                    <li>Apresente um formulário de login;</li>
+                    <li>Apresente uma opção para ver a senha;</li>
+                    <li>Apresente uma opção para recuperar a senha;</li>
+                    <li>Apresente uma opção para se registrar;</li>
+                    <li>Apresente uma opção para "permanecer conectado".</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="column">US03</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>
+                    Como usuário, quero recuperar minha senha para que eu possa aproveitar todas as funcionalidades do aplicativo novamente.
+                </span>
+                <hr class="hr">
+                <strong>Critérios de aceitação</strong><br>
+                O aplicativo deve: 
+                <ul class="ul">
+                    <li>Solicite o CPF do usuário;</li>
+                    <li>Solicite o método de recuperação (código de recuperação que pode ser enviado para o email ou telefone registrado).</li>
+                </ul>
+            </td>
+        </tr>                                                                             
+    </tbody>
+</table>
+
+
+<br>
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
             <th>Feature</th>
             <th>ID</th>
             <th>História de Usuário</th>

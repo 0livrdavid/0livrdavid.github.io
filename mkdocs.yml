@@ -1,8 +1,5 @@
 site_name: InfoWorks
 
-repo_name: "2020.1-Correios"
-repo_url: "https://github.com/Requisitos-de-Software/2020.1-Correios"
-
 nav:
   - Home: index.md
   - SCRUM: 
@@ -10,6 +7,10 @@ nav:
     - Product Backlog: SCRUM/productBacklog.md
   - UML:
     - Casos e Usos: UML/casosUsos.md
+    - Banco de Dados: UML/bancoDados.md
+  - LGPD:
+    - Termos de Usos: LGPD/termosUsos.md
+    - Política de Privacidade: LGPD/politicaPrivacidade.md
 
 theme:
   name: null
