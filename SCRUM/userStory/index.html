@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>User Story - InfoWorks</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">InfoWorks</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">SCRUM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">User Story</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../productBacklog/">Product Backlog</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">UML <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../UML/casosUsos/">Casos e Usos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../UML/bancoDados/">Banco de Dados</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LGPD <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../LGPD/termosUsos/">Termos de Usos</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../LGPD/politicaPrivacidade/">Política de Privacidade</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../..">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../productBacklog/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#user-story">User Story</a></li>
+            <li class="second-level"><a href="#introducao">Introdução</a></li>
+                
+            <li class="second-level"><a href="#legenda">Legenda</a></li>
+                
+            <li class="second-level"><a href="#tabela-de-user-story">Tabela de User Story</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="user-story">User Story</h1>
+<hr>
+
+<h2 id="introducao"><b>Introdução</b></h2>
+<ul>
+<li><b>Tema</b> - Coleção geral de épicos</li>
+<li><b>Épicos</b> - Quando uma história de usuário é muito grande para ser completada em um único Sprint, é necessário quebrá-la em pedaços menores, conhecidos como "épicos". Esses épicos podem ser divididos em histórias de usuários menores que são estimáveis, priorizáveis e entregues em um único Sprint. Essa abordagem permite que o Time Scrum gerencie melhor o trabalho e se concentre em entregar valor ao cliente, preservando a integridade da história original do usuário.</li>
+<li><b>Recurso</b> - O objetivo principal de um recurso é alcançar o resultado desejado de um épico. Um único épico pode conter um ou mais recursos, que são compostos por uma ou muitas histórias de usuário, cada uma correspondendo a um requisito funcional. O recurso serve para contextualizar e priorizar essas User Stories para que o Time Scrum possa focar melhor na entrega de valor ao cliente. Ao agrupar histórias de usuário relacionadas em um recurso, a equipe pode gerenciar o trabalho com mais eficiência e garantir que cada incremento do produto atinja o objetivo maior do épico.</li>
+<li><b>História do Usuário</b> - User Story ou “história de usuário” é uma descrição concisa de uma necessidade do usuário do produto (ou seja, de um “requisito”) sob o ponto de vista desse usuário. A User Story busca descrever essa necessidade de uma forma simples e leve.</li>
+</ul>
+<p><br></p>
+<h2 id="legenda"><b>Legenda</b></h2>
+<p><br></p>
+<h2 id="tabela-de-user-story"><b>Tabela de User Story</b></h2>
+<style>
+    .column {
+        text-align: center !important;
+        vertical-align: middle !important; 
+        border-right: 1px solid hsla(0,0%,0%,0.07);
+    }
+    .hr {
+        border-bottom: .05rem solid hsla(0,0%,0%,0.07) !important;
+        margin: 10px 2px !important;
+    }
+    .ul {
+        margin-top: 3px !important;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID</th>
+            <th>História de Usuário</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1" class="column">Desenvolver um modelo de site para o InfoWorks</td>
+            <td rowspan="1" class="column">Interface do Usuário</td>
+            <td class="column">UI01</td>
+            <td>A interface do usuário deve ser intuitiva e fácil de navegar, com uma navegação clara e lógica.</td>
+        </tr>
+        <tr>
+            <td rowspan="1" class="column"></td>
+            <td rowspan="1" class="column">Design</td>
+            <td class="column">DS01</td>
+            <td>O design do site deve ser atraente, moderno e consistente com a identidade visual da empresa. </td>
+        </tr>
+        <tr>
+            <td rowspan="1" class="column"></td>
+            <td rowspan="1" class="column">Experiência do Usuário</td>
+            <td class="column">UX01</td>
+            <td>A experiência do usuário deve ser satisfatória e atender a todas as necessidades do usuário, incluindo recursos e funcionalidades necessárias.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><br></p>
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" class="column">Registro e Login do Usuário</td>
+            <td rowspan="1" class="column">Registro</td>
+            <td class="column">US04</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>Como um usuário, eu quero criar uma conta na plataforma, para que eu possa acessar meus serviços e informações de conta.</span>
+                <hr class="hr">
+                <strong>Critérios de Aceitação</strong><br>
+                A aplicação deve:
+                <ul class="ul">
+                    <li>Apresentar um formulário de registro;</li>
+                    <li>Solicitar o nome completo, endereço de e-mail, senha e confirmação de senha;</li>
+                    <li>Validar a entrada do usuário;</li>
+                    <li>Enviar um e-mail de confirmação para o endereço de e-mail fornecido pelo usuário.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" class="column">Login</td>
+            <td class="column">US05</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>Como um usuário registrado, eu quero fazer login na plataforma, para que eu possa acessar meus serviços e informações de conta.</span>
+                <hr class="hr">
+                <strong>Critérios de Aceitação</strong><br>
+                A aplicação deve:
+                <ul class="ul">
+                    <li>Apresentar um formulário de login;</li>
+                    <li>Solicitar o endereço de e-mail e senha do usuário registrado;</li>
+                    <li>Validar a entrada do usuário;</li>
+                    <li>Redirecionar o usuário para a página inicial após o login bem-sucedido.</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p><br></p>
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1" class="column">Pesquisa de provedores de serviços</td>
+            <td rowspan="1" class="column">Funcionalidade de pesquisa</td>
+            <td class="column">US01</td>
+            <td>
+                <strong>Descrição</strong><br>
+                Como usuário, eu quero ser capaz de pesquisar provedores de serviços na plataforma, para que eu possa encontrar os serviços que preciso.<br>
+                <strong>Critérios de Aceitação</strong><br>
+                A aplicação deve:
+                <ul class="ul">
+                    <li>Permitir que os usuários pesquisem provedores de serviços com base em critérios como localização, tipo de serviço e disponibilidade;</li>
+                    <li>Retornar resultados precisos e relevantes com base na pesquisa do usuário;</li>
+                    <li>Exibir os resultados em uma interface de usuário clara e fácil de usar.</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p><br></p>
+<table>
+  <thead>
+    <tr>
+      <th>Épico</th>
+      <th>Feature</th>
+      <th>ID</th>
+      <th>Descrição | Critérios de Aceitação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Reservas</td>
+      <td>Criação de Reservas</td>
+      <td>US04</td>
+      <td>
+        <strong> Descrição </strong><br>
+        <span>
+          Como usuário, eu quero poder criar uma reserva para um serviço, para que eu possa agendar e receber o serviço desejado.
+        </span>
+        <hr class="hr">
+        <strong> Critérios de Aceitação</strong><br>
+        A aplicação deve: 
+        <ul class="ul">
+          <li>Permitir que o usuário selecione um provedor de serviços disponível;</li>
+          <li>Permitir que o usuário selecione uma data e horário disponíveis para o serviço;</li>
+          <li>Solicitar que o usuário confirme sua reserva antes de criar a reserva;</li>
+          <li>Notificar o provedor de serviços quando uma nova reserva é criada.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Disponibilidade do provedor de serviços</td>
+      <td>US05</td>
+      <td>
+        <strong> Descrição </strong><br>
+        <span>
+          Como provedor de serviços, eu quero poder definir minha disponibilidade, para que eu possa receber reservas em horários apropriados e me organizar.
+        </span>
+        <hr class="hr">
+        <strong> Critérios de Aceitação</strong><br>
+        A aplicação deve: 
+        <ul class="ul">
+          <li>Permitir que o provedor de serviços defina sua disponibilidade;</li>
+          <li>Permitir que o provedor de serviços altere sua disponibilidade;</li>
+          <li>Impedir que o provedor de serviços receba reservas em horários em que ele não está disponível;</li>
+          <li>Notificar o provedor de serviços quando uma nova reserva é criada.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br></p>
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>ID</th>
+            <th>Descrição | Critérios de Aceitação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="1" class="column">Sistema de classificação e revisão</td>
+            <td rowspan="1" class="column">Classificação e revisão de provedores de serviços</td>
+            <td class="column">US04</td>
+            <td>
+                <strong>Descrição</strong><br>
+                <span>
+                    Como usuário, eu quero poder classificar e revisar os provedores de serviços após receber seus serviços, para que outros usuários possam tomar decisões informadas ao selecionar provedores de serviços.
+                </span>
+                <hr class="hr">
+                <strong>Critérios de Aceitação</strong><br>
+                A aplicação deve permitir que os usuários:
+                <ul class="ul">
+                    <li>Classifiquem o provedor de serviços usando um sistema de estrelas;</li>
+                    <li>Escrevam uma revisão do provedor de serviços (opcional);</li>
+                    <li>Visualizem as classificações e revisões dos outros usuários para um provedor de serviços.</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p><br></p>
+<table>
+  <tr>
+    <th>Identificador da História</th>
+    <th>Épico</th>
+    <th>História de Usuário</th>
+    <th>Feature</th>
+  </tr>
+  <tr>
+    <td>HU06</td>
+    <td>Gerenciamento de Perfis</td>
+    <td>Como provedor de serviços, eu gostaria de poder criar um perfil na plataforma para mostrar meus serviços e informações de contato</td>
+    <td>Criação de perfil de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU07</td>
+    <td>Gerenciamento de Perfis</td>
+    <td>Como provedor de serviços, eu gostaria de poder atualizar e editar meu perfil na plataforma para manter minhas informações atualizadas</td>
+    <td>Atualização de perfil de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU08</td>
+    <td>Gerenciamento de Disponibilidade</td>
+    <td>Como provedor de serviços, eu gostaria de poder definir minha disponibilidade para que os clientes saibam quando estou disponível para trabalhar</td>
+    <td>Definição de disponibilidade de provedor de serviço</td>
+  </tr>
+  <tr>
+    <td>HU09</td>
+    <td>Gerenciamento de Disponibilidade</td>
+    <td>Como provedor de serviços, eu gostaria de poder visualizar minha disponibilidade em um calendário para que possa gerenciar meus compromissos</td>
+    <td>Visualização de disponibilidade de provedor de serviço</td>
+  </tr>
+</table></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
