@@ -1,239 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    
-    <title>Home - InfoWorks</title>
-    
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
-    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
-
-    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
         
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
         
-    
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>InfoWorks</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-        <![endif]-->
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">InfoWorks</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-     
-</head>
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="Prototipa%C3%A7%C3%A3o/" class="nav-link">Prototipação</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="Hist%C3%B3rias%20de%20usu%C3%A1rio/" class="nav-link">Histórias de usuário</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="Backlog/" class="nav-link">Backlog</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="Equipe/" class="nav-link">Equipe</a>
+                            </li>
+                        </ul>
 
-<body class="homepage" >
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-
-            <!-- Main title -->
-
-            
-              <a class="navbar-brand" href=".">InfoWorks</a>
-            
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Prototipa%C3%A7%C3%A3o/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li class="active">
-                        <a href=".">Home</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">SCRUM <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="SCRUM/userStory/">User Story</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="SCRUM/productBacklog/">Product Backlog</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">UML <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="UML/casosUsos/">Casos e Usos</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="UML/bancoDados/">Banco de Dados</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LGPD <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="LGPD/termosUsos/">Termos de Usos</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="LGPD/politicaPrivacidade/">Política de Privacidade</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="SCRUM/userStory/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
-            </ul>
-        </div>
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
     </div>
-</div>
 
-    <div class="container">
-        
-        
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#home">Home</a></li>
-            <li class="second-level"><a href="#bem-vindo-a-infoworks">Bem-vindo a InfoWorks</a></li>
-                
-    </ul>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#bem-vindo" class="nav-link">Bem vindo</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#a-empresa" class="nav-link">A Empresa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#o-projeto" class="nav-link">O Projeto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tecnologias-utilizadas" class="nav-link">Tecnologias utilizadas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#localizacao" class="nav-link">Localização</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-        <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
-<h1 id="home">Home</h1>
-<hr>
+<h1 id="bem-vindo">Bem vindo</h1>
+<hr />
+<p><br></p>
+<h2 id="a-empresa">A Empresa</h2>
+<p><br>
+A Infoworks é uma empresa de tecnologia sediada em Itajubá, formada por quatro empresários especialistas na área de TI. A empresa oferece soluções tecnológicas de alta qualidade para clientes em todo o país, com o objetivo de simplificar e automatizar processos de negócios por meio de soluções inovadoras. Além disso, a Infoworks mantém um escritório na Fepi, uma renomada instituição de ensino de tecnologia, para estreitar laços com a comunidade acadêmica e atrair talentos em potencial. A empresa também oferece suporte online para seus clientes, garantindo que seus produtos e serviços sejam acessíveis e fáceis de usar em qualquer lugar do mundo. Com um compromisso inabalável com a excelência e a inovação, a Infoworks está sempre à frente das tendências do mercado e empenhada em proporcionar a melhor experiência possível aos seus clientes.</p>
+<hr />
+<p><br>
+<br></p>
+<hr />
+<h2 id="o-projeto">O Projeto</h2>
+<p><br>
+Infoworks é um projeto de uma página web que tem como propósito oferecer serviços informais aos usuários. Através desta plataforma, o usuário pode oferecer e contratar serviços diversos de maneira simples e rápida. A ideia por trás do Infoworks é criar uma comunidade de pessoas que desejam oferecer seus serviços informais, tais como serviços de limpeza, jardinagem, costura, pintura, entre outros, e pessoas que estão em busca de tais serviços. A página funcionará de maneira simples: o usuário poderá criar um perfil informando suas habilidades e serviços oferecidos, além de informar a região onde atua. Já os usuários que estão em busca de um serviço poderão buscar por profissionais com base em sua localização e avaliações de outros usuários. Com o Infoworks, espera-se facilitar a vida de muitas pessoas que estão em busca de serviços informais de qualidade, além de oferecer uma oportunidade de trabalho para aqueles que desejam utilizar suas habilidades para gerar uma renda extra. Além disso, a página também irá oferecer uma plataforma segura para que o pagamento dos serviços contratados possa ser feito de maneira segura e transparente, garantindo a satisfação tanto do prestador de serviços quanto do contratante. Em resumo, a Infoworks é um projeto promissor que tem como objetivo oferecer uma solução prática e eficiente para a contratação de serviços informais, além de fomentar o empreendedorismo e o trabalho autônomo.</p>
+<hr />
+<p><br>
+<br></p>
+<hr />
+<h2 id="tecnologias-utilizadas">Tecnologias utilizadas</h2>
+<p><br>
+O projeto em questão utilizou uma variedade de tecnologias para atender às suas necessidades específicas. Para o desenvolvimento da interface do usuário, foram utilizados HTML e CSS, que permitem a criação de páginas web visualmente atraentes e responsivas. Além disso, o JavaScript foi utilizado para fornecer interatividade e dinamismo ao site. Para a criação do back-end, o PHP foi escolhido por sua capacidade de manipular dados e interagir com o banco de dados, que foi gerenciado pelo PHP MyAdmin. O Visual Studio foi utilizado como ambiente de desenvolvimento integrado (IDE) para programação. Para a criação dos wireframes e protótipos de interface, o Figma foi utilizado. Por fim, para a documentação do projeto, o MkDocs foi utilizado para criar uma documentação dinâmica e fácil de usar. A combinação dessas tecnologias permitiu o desenvolvimento de um projeto completo e funcional.</p>
+<p><br>
+<br></p>
+<p><img alt="HTML" src="imgs/html.png" /> <img alt="css" src="imgs/css.png" /> <img alt="js" src="imgs/js.png" /><img alt="js" src="imgs/php.png" /> <img alt="js" src="imgs/my.png" /> <img alt="js" src="imgs/vsc.jpg" /> <img alt="js" src="imgs/figma.png" /> </p>
+<p><center></p>
+<p><img alt="js" src="imgs/mk.png" />
+</center></p>
+<hr />
+<p><br>
+<br></p>
+<h2 id="localizacao">Localização</h2>
+<p><br></p>
+<p><img alt="Localizacao" src="fepi.jpg" />    </p>
+<p><br></p>
+<p><center></p>
+<p>FEPI - Fundação de Ensino e Pesquisa de Itajubá, Centro Universitário de Itajubá
+Av. Dr. Antônio Braga Filho, 687 · (35) 3629-8400
+</center></p></div>
+            </div>
+        </div>
 
-<h2 id="bem-vindo-a-infoworks"><b>Bem-vindo a InfoWorks</b></h2>
-<blockquote>
-<p><em>"O serviço que você precisa, a facilidade que você merece"</em>. </p>
-</blockquote>
-<p>Aproveite os serviços de uma plataforma que conecta usuários a provedores de serviços. Antes de usar nossa plataforma, leia e entenda nossos Termos de Uso e Política de Privacidade, que regem o uso do InfoWorks. Ao usar nossa plataforma, você concorda em ficar vinculado a estes termos.  </p>
-<p><br></p></div>
-        
-        
-    </div>
-
-    
-      <footer class="col-md-12 text-center">
-          
-          
+        <footer class="col-md-12">
             <hr>
-            <p>
-            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
-            </p>
-          
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
 
-          
-          
-      </footer>
-    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
-
-    
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
-        
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    <script>var base_url = "."</script>
-    
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
-
-    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span>
-                    <span class="sr-only">Close</span>
-                </button>
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
@@ -279,11 +220,11 @@
         </div>
     </div>
 </div>
-    </body>
 
+    </body>
 </html>
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-03-21 02:57:03.991139+00:00
+Build Date UTC : 2023-04-18 00:32:33.622122+00:00
 -->
